@@ -48,18 +48,15 @@ button:active {
 }
 
 .home-app {
-    position: relative;
+      position: relative;
     width: min(100%, var(--app-width));
     min-height: 100vh;
     min-height: 100dvh;
     margin: 0 auto;
-    padding:
-        max(38px, env(safe-area-inset-top))
-        0
-        calc(96px + env(safe-area-inset-bottom));
+    margin-top: 18px;
+    padding: max(38px, env(safe-area-inset-top)) 0 calc(96px + env(safe-area-inset-bottom));
     overflow: hidden;
-    background:
-        #030b1e;
+    background: #030b1e;
 }
 
 /*
@@ -1021,13 +1018,13 @@ button:active {
 
 /* Thanh xanh chứa tên */
 .customer-button {
-    position: relative;
+   position: relative;
     z-index: 1;
     min-width: 181px;
     width: 10px;
-    height: 29px;
+    height: 31px;
     margin-left: -27px;
-    margin-top: 5px;
+    margin-top: 7px;
     /* padding: 0 22px 0 27px; */
     display: flex;
     align-items: center;
